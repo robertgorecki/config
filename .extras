@@ -1,2 +1,1 @@
 #put project specific stuff here
-alias rftp="cd ~/projects/testing-platform/rat-webapp/src/main/webapp/WEB-INF/resources/"
