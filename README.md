@@ -1,3 +1,3 @@
-# config - OSX setup and dotfiles
+# config - bash setup
 
-Basic bash settings, git prompt, inputrc and a vim theme. Tailored towards OSX though with slight alterations, things will work in Linux as well.
+Basic bash and git settings for Linux

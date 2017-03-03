@@ -1,21 +1,14 @@
 [user]
-        name = DimitarChristoff
-        email = christoff@gmail.com
+        name = RobertGorecki
+        email = robertgorecki86@gmail.com
 [alias]
         ci = commit
         st = status
         co = checkout
         br = branch
-        lg = log -p
-        stage = add
+		amend = commit -a --amend
         unstage = reset HEAD
-        plog = log --pretty=tformat:'%h %Cblue%cr%Creset %cn %Cgreen%s%Creset'
-        graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
-        timmeh = commit -am'TIMMEH\\!'
-        subs = submodule foreach git pull origin master¬
-        local = log --numstat --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate  --first-parent --no-merges
-		ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
-        ll = log --numstat --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+        undocommit=reset HEAD~
 [color]
         ui = auto
 [color "branch"]
@@ -33,5 +26,3 @@
         untracked = cyan
 [push]
         default = current
-[core]
-	excludesfile = ~/.gitignore_global
