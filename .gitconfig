@@ -5,10 +5,13 @@
         ci = commit
         st = status
         co = checkout
+        c = clean -fd
         br = branch
-		amend = commit -a --amend
+	amend = commit -a --amend
         unstage = reset HEAD
         undocommit=reset HEAD~
+        set-upstream= !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+        su= !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 [color]
         ui = auto
 [color "branch"]
